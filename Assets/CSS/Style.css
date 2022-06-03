@@ -1,3 +1,13 @@
-.p {
-    color: antiquewhite;
+p {
+    color: rgb(18, 211, 121);
+}
+#Profile-Pic{
+   display: block;
+   margin-left: 25px;
+   margin-right: auto;
+   width: 25%;
+   border-radius: 25%;
+  
+
+
 }
