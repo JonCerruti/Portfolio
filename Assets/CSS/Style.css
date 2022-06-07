@@ -12,8 +12,8 @@ body{
 } 
 #header {
     padding: 20px;
-    background-color:darkolivegreen;
-    color:navajowhite;
+    background-color:navajowhite;
+    color:darkolivegreen;
 }#header h1 {
     display: inline-block;
     font-size: 48px;
@@ -31,11 +31,10 @@ body{
     font-size: 28px;
     
 }
-#header {
-    background-color:darkolivegreen;
-}
+
+
 #header a {
-    color: rgb(235, 208, 133);
+    color: darkolivegreen;
     text-decoration:solid, underline;
 }
 
