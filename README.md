@@ -9,4 +9,8 @@
 - HMTL 
 - CSS
 ---
-![website-screenshot] https://github.com/JonCerruti/Portfolio/blob/main/Assets/Images/Portfolio.png
+A wireframe I made to help organize my thoughts.
+![Wireframe](https://github.com/JonCerruti/Portfolio/blob/main/Assets/Images/Wireframe.png)
+---
+
+![website-screenshot](https://github.com/JonCerruti/Portfolio/blob/main/Assets/Images/Portfolio.png)
