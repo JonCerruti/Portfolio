@@ -1,3 +1,8 @@
+:root {
+    --Green: darkolivegreen;
+    --white: navajowhite;
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,13 +12,13 @@
 
 
 body{
-    background-color:darkolivegreen;
+    background-color:var(--Green)
     
 } 
 #header {
     padding: 20px;
-    background-color:navajowhite;
-    color:darkolivegreen;
+    background-color:var(--white);
+    color: var(--Green)
 }#header h1 {
     display: inline-block;
     font-size: 48px;
@@ -34,7 +39,7 @@ body{
 
 
 #header a {
-    color: darkolivegreen;
+    color: var(--Green);
     text-decoration:solid, underline;
 }
 
@@ -64,7 +69,7 @@ body{
 #About-Me{
     margin-left: 25px;
     margin-top: 75px;
-    color: rgb(235, 208, 133);
+    color: var(--white)
     
 }
  
@@ -78,7 +83,7 @@ h3{
 ;
 }
 .Work {
-    color: rgb(235, 208, 133);
+    color: var(--white);
     margin-top: 50px;
     margin-bottom: 10px;
 }
@@ -112,8 +117,8 @@ figure{
     padding: 30px;
     clear: both;
     text-align: center;
-    background-color:navajowhite;
-    color:darkolivegreen;
+    background-color:var(--white);
+    color:var(--Green)
 }
 
 footer nav{
@@ -132,11 +137,11 @@ footer li{
     display: inline-block;
     margin-left: 25px;
     font-size: 24px;
-    color: darkolivegreen;
+    color: var(--Green)
     
 }
 footer li a{
-    color: darkolivegreen;
+    color: var(--Green);
     text-decoration: solid,underline;
 }
 @media (max-width: 768px){
