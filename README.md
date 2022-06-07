@@ -9,4 +9,4 @@
 - HMTL 
 - CSS
 ---
-![Website Screenshot] https://github.com/JonCerruti/Portfolio/blob/main/Assets/Images/Portfolio.png
+![website-screenshot] https://github.com/JonCerruti/Portfolio/blob/main/Assets/Images/Portfolio.png
