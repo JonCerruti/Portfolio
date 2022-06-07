@@ -45,11 +45,10 @@ body{
     
     display: flex;
     position: relative;
-    width: 600px;
-    
+    width: 1000px;
     justify-content: space-between;
     align-items:center;
-    flex-wrap:wrap;
+    
     
 }
 
@@ -69,33 +68,23 @@ body{
     color: rgb(235, 208, 133);
     
 }
-
-@media  (max-width: 991px)
-
- { .container{
-     flex-direction:column;
-     
- }}
- @media  (max-width: 768px)
-
- { .container{
-     flex-direction:column;
-     
- }}
  
-     main p {
+main p {
     font-size: 20px;
    
     
 }
-
-#Work {
-
+h3{
+    margin-left: 25px;
+;
+}
+.Work {
+    color: rgb(235, 208, 133);
     margin-top: 50px;
     margin-bottom: 10px;
 }
 figure{
-    display: block;
+    display:inline-block;
 }
 #first-project{
     height: 300px;
@@ -110,18 +99,7 @@ figure{
     
 
 
-}@media  (max-width: 991px)
-
-{ figure {
-    flex-direction:column;
-    
-}}
-@media  (max-width: 768px)
-
-{ figure {
-    flex-direction:column;
-    
-}}
+}
 
 #placeholder-2 {
     height: 300px;
@@ -129,6 +107,8 @@ figure{
     margin: 25px;
     
 }
+
+
   footer {
     padding: 30px;
     clear: both;
@@ -159,4 +139,9 @@ footer li{
 footer li a{
     color: darkolivegreen;
     text-decoration: solid,underline;
+}
+@media (max-width: 768px){
+.container{
+flex-wrap: wrap;
+}
 }
