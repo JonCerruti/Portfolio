@@ -1,13 +1,162 @@
-p {
-    color: rgb(18, 211, 121);
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#Profile-Pic{
-   display: block;
-   margin-left: 25px;
-   margin-right: auto;
-   width: 25%;
-   border-radius: 25%;
-  
 
 
+body{
+    background-color:darkolivegreen;
+    
+} 
+#header {
+    padding: 20px;
+    background-color:darkolivegreen;
+    color:navajowhite;
+}#header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+#header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+#header li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 28px;
+    
+}
+#header {
+    background-color:darkolivegreen;
+}
+#header a {
+    color: rgb(235, 208, 133);
+    text-decoration:solid, underline;
+}
+
+
+
+.container {
+    
+    display: flex;
+    position: relative;
+    width: 600px;
+    
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    
+}
+
+.container img{
+    max-width: 300px;
+    flex: 0 0 300px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    width: 400px;
+    border-radius: 15%;
+   }
+ 
+#About-Me{
+    margin-left: 25px;
+    margin-top: 75px;
+    color: rgb(235, 208, 133);
+    
+}
+
+@media  (max-width: 991px)
+
+ { .container{
+     flex-direction:column;
+     
+ }}
+ @media  (max-width: 768px)
+
+ { .container{
+     flex-direction:column;
+     
+ }}
+ 
+     main p {
+    font-size: 20px;
+   
+    
+}
+
+#Work {
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+figure{
+    display: block;
+}
+#first-project{
+    height: 300px;
+    width: 600px;
+    margin: 25px;
+
+}
+#placeholder-1 {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    
+
+
+}@media  (max-width: 991px)
+
+{ figure {
+    flex-direction:column;
+    
+}}
+@media  (max-width: 768px)
+
+{ figure {
+    flex-direction:column;
+    
+}}
+
+#placeholder-2 {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    
+}
+  footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    background-color:navajowhite;
+    color:darkolivegreen;
+}
+
+footer nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right;
+    font-size: 20px;
+}
+
+footer h4 {
+    font-size: 36px;
+}
+
+
+footer li{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 24px;
+    color: darkolivegreen;
+    
+}
+footer li a{
+    color: darkolivegreen;
+    text-decoration: solid,underline;
 }
