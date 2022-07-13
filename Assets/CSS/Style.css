@@ -96,14 +96,16 @@ figure{
     margin: 25px;
 
 }
-#placeholder-1 {
-    max-height: 300px;
-    max-width: 300px;
-    margin: 25px;
-    
 
+#project-1 {
+    max-height: 300px;
+    max-width: 600px;
+    margin: 25px;
 
 }
+
+
+
 
 #placeholder-2 {
     max-height: 300px;
